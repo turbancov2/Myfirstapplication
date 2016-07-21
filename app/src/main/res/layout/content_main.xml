@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.mzfirstapplication.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#F4F7F9"
+        >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome in Hong Kong"
+        android:textSize="32sp"
+        android:textStyle="italic"
+        android:fontFamily="sans_serif_light"
+        android:textColor="#f64e3f"
+        android:layout_marginLeft="12sp"
+        android:layout_marginRight="12sp"
+        android:layout_marginTop="16sp"
+        android:layout_marginBottom="16sp"
+        android:textAlignment="center"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:id="@+id/the_big_buddha"
+            android:text="The Big Buddha"
+            android:layout_marginTop="8sp"
+            android:layout_marginBottom="8sp"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:textSize="16sp"
+            android:textColor="#ffffff"
+            android:textAlignment="left"
+            android:background="#000000"
+
+            />
+            <ImageView
+                android:src="@drawable/BigBudha"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:text="The Peak"
+            android:layout_marginTop="8sp"
+            android:layout_marginBottom="8sp"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:textSize="16sp"
+            android:textColor="#ffffff"
+            android:textAlignment="center"
+            android:layout_paddingRight="30sp"
+            android:background="#000000"
+            />
+            <ImageView
+                android:src="@drawable/ThePeak"
+                android:layout_width="80sp"
+                android:layout_height="80sp"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="8dp"
+                android:layout_alignParentLeft="true"
+                />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:text="Victoria Harbour per day"
+            android:layout_marginTop="8sp"
+            android:layout_marginBottom="8sp"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:textSize="16sp"
+            android:textColor="#ffffff"
+            android:textAlignment="right"
+            android:background="#000000"
+            />
+            <ImageView
+                android:src="@drawable/HKG"
+                android:layout_width="90sp"
+                android:layout_height="90sp"
+                android:layout_marginTop="0sp"
+                android:layout_marginBottom="20sp"
+                android:layout_paddingTop="4sp"
+                android:layout_alignParentRight="true"
+                />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Victoria Harbour at night"
+        android:layout_marginTop="8sp"
+        android:layout_marginBottom="8sp"
+        android:textSize="16sp"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:background="#000000"
+        />
+        <ImageView
+            android:src="@drawable/hongkongharbor"
+            android:layout_width="328sp"
+            android:layout_height="328sp"
+            android:layout_marginTop="8sp"
+            android:layout_marginBottom="8sp"
+            />
+
+
+    </LinearLayout>
+</RelativeLayout>
